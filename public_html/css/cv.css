@@ -59,16 +59,16 @@ body {
 * Rubriques
 ****************************************/
 .rubrique { margin-bottom: 15px; }
-.rubrique h2 { color: rgb(226,0,26); }
+.rubrique h2 { color: rgb( 255, 87, 51 ); }
 .rubrique h2::before{ margin-right: 5px; }
 .rubrique p{ font-size: 1.3em; line-height: 1.5em; }
-
+/**rgb(226,0,26)
 
 /******************************************
 * Parcours scolaire
 ******************************************/
 #parcours { margin-top: 20px; position: relative; padding: 1em 0; list-style: none; }
-#parcours::before { width: 5px; height: 100%; position: absolute; left: 7.8px; top: 0;
+#parcours::before { width: 5px; height:100%; position: absolute; left: 7.8px; bottom:0;
  display: block; background: linear-gradient(to bottom, #ffffff 0%,
  #E2001A 7%, #E2001A, #ffffff 100%); content:""; }
 #parcours li { width: 100%; z-index: 2; position: relative; float: left; }
