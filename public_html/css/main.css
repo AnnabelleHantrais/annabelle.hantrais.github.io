@@ -1,0 +1,33 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 28 oct. 2022, 11:30:13
+    Author     : annabelle.hantrais
+*/
+#presentationText{
+    margin-left:20px;
+    
+}
+
+
+#en-savoir-plus{
+    width:auto;
+    margin-top:10px;
+}
+#presentation{
+    display:flex;
+    flex-direction:column;
+}
+
+#pres-img{
+    float:left;
+    margin-right:10px;
+}
+
+#bienvenue{
+    margin:0 !important;
+    display:flex;
+    align-content:flex-end;
+}
