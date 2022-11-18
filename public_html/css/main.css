@@ -16,6 +16,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 }
 #presentation{
     display:flex;
+    text-align:center;
+    align-content: center;
     flex-direction:column;
 }
 
