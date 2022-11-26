@@ -7,11 +7,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : annabelle.hantrais
 */
 
-body{
+footer{
     background-color: black;
+    color: lightgray;
+    margin-bottom:0px !important;
+    position:absolute;
+    width:100%;
 }
-jumbo_accueil{
+#jumbo_accueil{
+    margin-top:20px;
     background-color:black !important;
+    color: rgb( 204, 203, 203 );
 }
 #presentationText{
     margin-left:20px;
@@ -37,4 +43,11 @@ jumbo_accueil{
     margin:0 !important;
     display:flex;
     align-content:flex-end;
+}
+
+
+
+.bouton-info{
+    width:150px;
+    height:40px;
 }
