@@ -6,6 +6,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Created on : 28 oct. 2022, 11:30:13
     Author     : annabelle.hantrais
 */
+
+footer{
+    background-color: black;
+    color: lightgray;
+    margin-bottom:0px !important;
+    position:absolute;
+    width:100%;
+}
+#jumbo_accueil{
+    margin-top:20px;
+    background-color:black !important;
+    color: rgb( 204, 203, 203 );
+}
 #presentationText{
     margin-left:20px;
 
@@ -16,6 +29,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 }
 #presentation{
     display:flex;
+    text-align:center;
+    align-content: center;
     flex-direction:column;
 }
 
@@ -28,4 +43,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     margin:0 !important;
     display:flex;
     align-content:flex-end;
+}
+
+.bouton-info{
+    width:150px;
+    height:40px;
 }
