@@ -9,16 +9,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 body {
     padding-top: 50px;
-    
+
 }
 #jumbo-cv{
     margin-bottom:0px !important;
-    background-color:black !important;
+    /*background-color:black !important;*/
 }
 .cadreCV {
     padding-bottom: 15px;
-    background:  #343a40;
-;
+    background:  white; 
+    
 }
 /****************************************
 * En-tête du CV
@@ -53,9 +53,7 @@ body {
     margin-bottom:10px;
 }
 #cv-intro::after {
-    /*background: url('images/ligne.png'); /* Dossier "images" est un sous-
-     dossier de "css" (à créer) */
-    background:black;
+    background: url('images/ligne.png'); 
     width: 100%;
     height: 3px;
     margin-top: 15px;
@@ -68,7 +66,7 @@ body {
 ****************************************/
 .rubrique {
     margin-bottom: 15px;
-    color:lightgray;
+    /*color:lightgray;*/
 }
 .rubrique h2 {
     color: rgb(  197, 95, 42  );
@@ -80,7 +78,7 @@ body {
     font-size: 1.3em;
     line-height: 1.5em;
 }
-/**rgb(226,0,26)
+
 
 /******************************************
 * Parcours scolaire
@@ -99,9 +97,9 @@ body {
     bottom:0;
     display: block;
     background: linear-gradient(to bottom, #ffffff 0%,
-         #c55f2a
- 7%,  #c55f2a
-, #ffffff 100%);
+        #c55f2a
+        7%,  #c55f2a
+        , #ffffff 100%);
     content:"";
 }
 #parcours li {
@@ -124,8 +122,8 @@ body {
 #parcours .details {
     width: 325px;
     display: inline-block;
-    /*background: #eee; */
-    background-color:  black;
+    background: #eee; 
+    /*background-color:  black;*/
     position: relative;
     padding: 10px 10px 0 10px;
     border-bottom: 1px solid #ddd;
@@ -267,7 +265,9 @@ body {
 #langues .langue {
     padding-top: 3px;
 }
-
+.badge-success{
+    background-color: #b9d191;
+}
 
 /******************************************
 * Compétences
