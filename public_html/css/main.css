@@ -6,7 +6,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Created on : 28 oct. 2022, 11:30:13
     Author     : annabelle.hantrais
 */
-
+footer p {
+    padding:10px;
+    margin-bottom:0px;
+}
 footer{
     display:flex;
     justify-content:center;
